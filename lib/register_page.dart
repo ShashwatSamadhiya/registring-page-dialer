@@ -115,6 +115,8 @@ class _register_pageState extends State<register_page> {
       margin: EdgeInsets.only(top: 6, left: 17, right: 15),
       child: Container(
         child: TextField(
+          style: TextStyle(color: Colors.white, letterSpacing: 2),
+          keyboardType: TextInputType.number,
           decoration: InputDecoration(
               filled: true,
               fillColor: Color(0xFFF2C2C2E),
